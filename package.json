@@ -1,0 +1,32 @@
+{
+  "name": "crazy-report",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "leanixReport": {
+    "id": "net.tgehder.crazyReport",
+    "title": "Tom's Crazy Report",
+    "defaultConfig": {}
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@leanix/reporting-cli": "^1.0.0-beta.20",
+    "@sveltejs/vite-plugin-svelte": "^2.0.0",
+    "@tsconfig/svelte": "^3.0.0",
+    "@vitejs/plugin-basic-ssl": "^1.0.1",
+    "sass": "^1.57.1",
+    "svelte": "^3.54.0",
+    "svelte-check": "^2.10.0",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "@leanix/reporting": "^0.4.122"
+  }
+}
